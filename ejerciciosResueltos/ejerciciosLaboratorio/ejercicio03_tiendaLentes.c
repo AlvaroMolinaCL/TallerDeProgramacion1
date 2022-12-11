@@ -1,5 +1,5 @@
 /*
-Ejercicio 13 - Laboratorio
+Ejercicio 03 - Laboratorio
 
 Simula una tienda de lentes, que tenga X cantidad de lentes en stock. En donde el
 usuario escriba la cantidad a comprar.

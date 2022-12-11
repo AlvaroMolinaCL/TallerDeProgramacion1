@@ -1,5 +1,5 @@
 /*
-Ejercicio 04 - Laboratorio
+Ejercicio 05
 
 Crear funciones que retornen el área y perímetro de un rectángulo y
 un círculo, ingrese los valores de los lados/radio desde la función

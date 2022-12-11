@@ -1,5 +1,5 @@
 /*
-Ejercicio 02 - Laboratorio
+Ejercicio 01 - Laboratorio
 
 Construya el algoritmo de una caja registradora que pregunte
 al usuario la cantidad de productos que va a comprar, acto seguido

@@ -1,7 +1,5 @@
 /*
-Ejercicio 15 - Laboratorio
-
-Switch:
+Ejercicio 01
 
 Presentar un menu que dé a elegir entre 4 figuras geométricas, para luego imprimir en pantalla el
 área de la figura elegida a partir de sus respectivas variables (cuyos valores deben ser dados por

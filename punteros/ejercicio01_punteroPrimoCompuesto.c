@@ -1,5 +1,5 @@
 /*
-Ejercicio 08 - Laboratorio
+Ejercicio 01
 
 Cree un puntero que apunte a un número entero y determine si
 es primo o compuesto, además, imprima por pantalla la dirección

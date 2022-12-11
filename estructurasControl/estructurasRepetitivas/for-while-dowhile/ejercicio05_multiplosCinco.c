@@ -1,5 +1,5 @@
 /*
-Ejercicio 01 - Laboratorio
+Ejercicio 05
 
 Escribir un algoritmo que permita visualizar en pantalla los números múltiplos de 5 comprendidos
 entre 1 y 100.

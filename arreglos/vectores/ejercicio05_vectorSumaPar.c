@@ -1,5 +1,5 @@
 /*
-Ejercicio 05 - Laboratorio
+Ejercicio 05
 
 Cree una función que reciba, por parámetro, un vector de números
 enteros y retorne la suma de todos sus números pares.

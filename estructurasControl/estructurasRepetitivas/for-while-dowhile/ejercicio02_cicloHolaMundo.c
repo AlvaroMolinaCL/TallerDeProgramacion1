@@ -1,5 +1,5 @@
 /*
-Ejercicio 11 - Laboratorio
+Ejercicio 02
 
 Imprima N veces "Hola Mundo", luego, haga la pregunta "Desea
 cerrar el programa?" hasta que el usuario pulse "S" en el mismo

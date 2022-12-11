@@ -1,5 +1,5 @@
 /*
-Ejercicio 03 - Laboratorio
+Ejercicio 02 - Laboratorio
 
 FizzBuzz Game
 

@@ -1,5 +1,5 @@
 /*
-Ejercicio 09 - Laboratorio
+Ejercicio 02
 
 Cree un puntero que apunte a un número entero y conviertalo
 a su valor absoluto, después, eleve a 5 dicho número.

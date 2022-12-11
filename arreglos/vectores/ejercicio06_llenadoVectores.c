@@ -1,5 +1,5 @@
 /*
-Ejercicio 10 - Laboratorio
+Ejercicio 06
 
 Llene dos vectores con números aleatorios, y luego llene un tercer
 vector con la suma (elemento por elemento) de los dos anteriores.

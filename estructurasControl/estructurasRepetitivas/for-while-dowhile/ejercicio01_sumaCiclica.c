@@ -1,5 +1,5 @@
 /*
-Ejercicio 12 - Laboratorio
+Ejercicio 01
 
 Pida dos números a y b al usuario, luego pregunte cuánto vale su
 suma, repitiendo la pregunta hasta que el usuario responda correctamente.

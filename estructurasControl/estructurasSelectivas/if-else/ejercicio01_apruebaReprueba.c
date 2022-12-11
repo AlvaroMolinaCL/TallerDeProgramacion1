@@ -1,5 +1,5 @@
 /*
-Ejercicio 14 - Laboratorio
+Ejercicio 01
 
 Escriba un programa que, dadas 5 notas y el porcentaje de asistencia,
 determine si un estudiante aprueba o reprueba un curso.
