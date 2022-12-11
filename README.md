@@ -34,7 +34,6 @@ Este repositorio contiene material de estudio, códigos y ejercicios resueltos p
 
 ### Funciones
 
-1. Funciones por valor
-2. Funciones por referencia
+1. Funciones
 
 ### Ejercicios resueltos
