@@ -13,18 +13,18 @@ tengo la letra <letra>", donde <letra> representa la letra ingresada por pantall
 
 int main(int argc, char const *argv[])
 {
-    int n_entero;
-    float n_flotante;
+    int numEntero;
+    float numFlotante;
     char letra;
 
     printf("Ingrese un numero entero, numero flotante y una letra (respetando el orden ya indicado): \n");
-    scanf("%i %f %c", &n_entero, &n_flotante, &letra);
+    scanf("%i %f %c", &numEntero, &numFlotante, &letra);
 
-    if (n_entero > 0 && n_flotante > 0)
+    if (numEntero > 0 && numFlotante > 0)
     {
         printf("Ambos son positivos.\n");
     }
-    else if (n_entero < 0 && n_flotante < 0)
+    else if (numEntero < 0 && numFlotante < 0)
     {
         printf("Ambos son negativos.\n");
     }

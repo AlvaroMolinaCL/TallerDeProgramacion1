@@ -19,22 +19,22 @@ El programa debe mostrar por pantalla el sueldo liquido y cada uno de los descue
 
 int main(int argc, char const *argv[])
 {
-    int sueldo_bruto, sueldo_liquido;
-    float descuento_afp, descuento_salud, descuento_seguros;
+    int sueldoBruto, sueldoLiquido;
+    float descuentoAFP, descuentoSalud, descuentoSeguros;
 
     printf("Ingrese su sueldo bruto a continuacion (ingrese solo numeros sin simbolos ni signos de puntuacion): \n");
-    scanf("%i", &sueldo_bruto);
+    scanf("%i", &sueldoBruto);
 
-    descuento_afp = sueldo_bruto * 0.1;
-    descuento_salud = sueldo_bruto * 0.07;
-    descuento_seguros = sueldo_bruto * 0.02;
+    descuentoAFP = sueldoBruto * 0.1;
+    descuentoSalud = sueldoBruto * 0.07;
+    descuentoSeguros = sueldoBruto * 0.02;
 
-    sueldo_liquido = sueldo_bruto - descuento_afp - descuento_salud - descuento_seguros;
+    sueldoLiquido = sueldoBruto - descuentoAFP - descuentoSalud - descuentoSeguros;
 
-    printf("Su sueldo liquido es $%i y se han realizado los siguientes descuentos detallados a continuacion:\n", sueldo_liquido);
-    printf("Descuento por AFP (10%%): $%.0f\n", descuento_afp);
-    printf("Descuento por salud (7%%): $%.0f\n", descuento_salud);
-    printf("Descuento por seguros (2%%): $%.0f\n", descuento_seguros);
+    printf("Su sueldo liquido es $%i y se han realizado los siguientes descuentos detallados a continuacion:\n", sueldoLiquido);
+    printf("Descuento por AFP (10%%): $%.0f\n", descuentoAFP);
+    printf("Descuento por salud (7%%): $%.0f\n", descuentoSalud);
+    printf("Descuento por seguros (2%%): $%.0f\n", descuentoSeguros);
 
     return 0;
 }

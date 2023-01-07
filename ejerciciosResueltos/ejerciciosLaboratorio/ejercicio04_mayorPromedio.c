@@ -25,7 +25,7 @@ int main(int argc, char const *argv[])
     scanf("%i", &size);
     alumno_t *alumnos;
     alumnos = (alumno_t *)calloc(size, sizeof(alumno_t));
-    
+
     /*
     alumno_t alumnos[2];
 

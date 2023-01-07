@@ -12,7 +12,7 @@ los precios con el signo "$" y en números decimales).
 
 int main(int argc, char const *argv[])
 {
-    float precio, precio_total = 0;
+    float precio, precioTotal = 0;
     int n, i;
 
     printf("Digite la cantidad de productos: ");
@@ -23,10 +23,10 @@ int main(int argc, char const *argv[])
         printf("Digite el precio %i: ", i + 1);
         scanf("%f", &precio);
 
-        precio_total += precio; // <=> precio_total = precio_total + precio
+        precioTotal += precio; // <=> precioTotal = precioTotal + precio
     }
 
-    printf("Precio total: $%.2f\n", precio_total);
+    printf("Precio total: $%.2f\n", precioTotal);
 
     return 0;
 }

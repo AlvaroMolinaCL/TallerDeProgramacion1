@@ -30,7 +30,7 @@ int main(int argc, char const *argv[])
         printf("Ha finalizado la ejecucion del programa\n");
         printf("Tecla que detuvo la ejecucion: z\n");
         break;
-    
+
     default:
         printf("Ingrese un caracter: ");
         fflush(stdin);

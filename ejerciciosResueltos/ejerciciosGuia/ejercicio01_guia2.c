@@ -12,19 +12,19 @@ por pantalla el IVA y precio final de dicha venta.
 
 int main(int argc, char const *argv[])
 {
-    float precio, iva_venta;
-    float precio_descuento = 150000;
+    float precio, ivaVenta;
+    float precioDescuento = 150000;
     printf("Ingrese el valor de la venta: ");
     scanf("%f", &precio);
-    iva_venta = precio * IVA;
+    ivaVenta = precio * IVA;
 
-    if (precio > precio_descuento)
+    if (precio > precioDescuento)
     {
         precio = precio - precio * DESCUENTO;
         printf("¡Tu compra ha obtenido un descuento de %.0f !\n", precio * DESCUENTO);
     }
 
-    printf("IVA = $%.0f\n", iva_venta);
+    printf("IVA = $%.0f\n", ivaVenta);
     printf("Precio final = $%.0f\n", precio);
 
     return 0;

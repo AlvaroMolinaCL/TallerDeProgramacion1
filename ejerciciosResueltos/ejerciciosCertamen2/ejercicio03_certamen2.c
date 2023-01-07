@@ -14,30 +14,30 @@ Ejemplo: Si sus cadenas de entrada son: "Las" "ovejas" "blancas". La cadena resu
 
 int main(int argc, char const *argv[])
 {
-    char string1[MAX], string2[MAX], string3[MAX], stringFinal[MAX];
+    char cadena1[MAX], cadena2[MAX], cadena3[MAX], cadenaFinal[MAX];
 
     printf("Ingrese el texto de la cadena 1: ");
-    fgets(string1, MAX, stdin);
+    fgets(cadena1, MAX, stdin);
 
     fflush(stdin);
 
     printf("Ingrese el texto de la cadena 2: ");
-    fgets(string2, MAX, stdin);
+    fgets(cadena2, MAX, stdin);
 
     fflush(stdin);
 
     printf("Ingrese el texto de la cadena 3: ");
-    fgets(string3, MAX, stdin);
+    fgets(cadena3, MAX, stdin);
 
-    strcpy(stringFinal, string1);
-    strtok(stringFinal, "\n"); // Se elimina salto de linea
-    strcat(stringFinal, " ");
-    strcat(stringFinal, string2);
-    strtok(stringFinal, "\n"); // Se elimina salto de linea
-    strcat(stringFinal, " ");
-    strcat(stringFinal, string3);
+    strcpy(cadenaFinal, cadena1);
+    strtok(cadenaFinal, "\n"); // Se elimina salto de linea
+    strcat(cadenaFinal, " ");
+    strcat(cadenaFinal, cadena2);
+    strtok(cadenaFinal, "\n"); // Se elimina salto de linea
+    strcat(cadenaFinal, " ");
+    strcat(cadenaFinal, cadena3);
 
-    printf("%s", stringFinal);
+    printf("%s", cadenaFinal);
 
     return 0;
 }

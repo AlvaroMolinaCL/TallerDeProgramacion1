@@ -26,37 +26,38 @@ typedef enum
     cuerda,
     viento,
     digital
-} tipo_instrumento_t;
+} tipoInstrumento_t;
 
 typedef struct
 {
-    int id_instrumento;
-    char nombre_instrumento[MAX];
-    tipo_instrumento_t tipo_instrumento;
+    int idInstrumento;
+    char nombreInstrumento[MAX];
+    tipoInstrumento_t tipoInstrumento;
 } instrumento_t;
 
 instrumento_t instrumento;
 
 int main(int argc, char const *argv[])
 {
-    int cantidad_instrumentos;
+    int cantidadInstrumentos;
+
     printf("Ingrese la cantidad de instrumentos a registrar: ");
-    scanf("%i", &cantidad_instrumentos);
+    scanf("%i", &cantidadInstrumentos);
 
     int i;
-    for (i = 0; i < cantidad_instrumentos; i++)
+    for (i = 0; i < cantidadInstrumentos; i++)
     {
         printf("\n\nInstrumento ID %c%i\n\n", 35, i + 1);
         fflush(stdin);
         printf("Nombre del instrumento: ");
-        fgets(instrumento.nombre_instrumento, MAX, stdin);
+        fgets(instrumento.nombreInstrumento, MAX, stdin);
         fflush(stdin);
         printf("\nIndique el tipo de instrumento. Digite el n%cmero de la opci%cn correspondiente: \n\n", 163, 162);
         printf("0) Cuerda.\n");
         printf("1) Viento.\n");
         printf("2) Digital.\n\n");
         printf(">> ");
-        scanf("%i", &instrumento.tipo_instrumento);
+        scanf("%i", &instrumento.tipoInstrumento);
         printf("\nEl instrumento ID %c%i ha sido registrado exitosamente", 35, i + 1);
     }
 

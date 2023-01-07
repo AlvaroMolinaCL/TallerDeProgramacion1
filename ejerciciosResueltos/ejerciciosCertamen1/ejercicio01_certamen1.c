@@ -18,31 +18,32 @@ Al finalizar, el programa debe imprimir por pantalla:
 
 int main(int argc, char const *argv[])
 {
-    float n, n_positivos, n_negativos, n_stop;
+    float num, numPositivos, numNegativos, numStop;
 
-    n_positivos = 0;
-    n_negativos = 0;
+    numPositivos = 0;
+    numNegativos = 0;
 
     do
     {
         printf("Ingrese numeros a continuacion: ");
-        scanf("%f", &n);
-        if (n > 0)
+        scanf("%f", &num);
+        
+        if (num > 0)
         {
-            n_positivos = n_positivos + 1;
+            numPositivos = numPositivos + 1;
         }
-        else if (n < 0)
+        else if (num < 0)
         {
-            n_negativos = n_negativos + 1;
+            numNegativos = numNegativos + 1;
         }
-    } while (n >= -50 || n <= -100);
+    } while (num >= -50 || num <= -100);
 
-    n_stop = n;
-    
+    numStop = num;
+
     printf("Ha finalizado la ejecucion del programa\n");
-    printf("Cantidad total de numeros positivos: %.0f\n", n_positivos);
-    printf("Cantidad total de numeros negativos: %.0f\n", n_negativos);
-    printf("Numero que detuvo el programa: %.0f\n", n_stop);
+    printf("Cantidad total de numeros positivos: %.0f\n", numPositivos);
+    printf("Cantidad total de numeros negativos: %.0f\n", numNegativos);
+    printf("Numero que detuvo el programa: %.0f\n", numStop);
 
     return 0;
 }

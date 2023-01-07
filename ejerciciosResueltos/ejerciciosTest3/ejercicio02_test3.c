@@ -14,7 +14,7 @@ double area_trapecio(double b_1, double b_2, double h)
 int main(int argc, char const *argv[])
 {
     double a, b, c, resultado;
-    
+
     printf("Ingrese base menor: ");
     scanf("%f", &a);
     printf("Ingrese base mayor: ");

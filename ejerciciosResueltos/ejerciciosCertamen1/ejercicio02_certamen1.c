@@ -17,7 +17,7 @@ punto cardinal y el programa entregue al usuario por pantalla el mensaje:
 
 #include <stdio.h>
 
-enum punto_cardinal
+enum puntoCardinal
 {
     NORTE = 1,
     SUR,
@@ -27,28 +27,29 @@ enum punto_cardinal
 
 int main(int argc, char const *argv[])
 {
-    enum punto_cardinal p_cardinal;
+    enum puntoCardinal pCardinal;
+    
     printf("Ingrese un punto cardinal a continuacion:\n");
     printf("1.- Norte\n");
     printf("2.- Sur\n");
     printf("3.- Este\n");
     printf("4.- Oeste\n");
     printf(">> ");
-    scanf("%i", &p_cardinal);
+    scanf("%i", &pCardinal);
 
-    if (p_cardinal == NORTE)
+    if (pCardinal == NORTE)
     {
         printf("Tambien se le conoce como Boreal.\n");
     }
-    else if (p_cardinal == SUR)
+    else if (pCardinal == SUR)
     {
         printf("Tambien se le conoce como Austral.\n");
     }
-    else if (p_cardinal == ESTE)
+    else if (pCardinal == ESTE)
     {
         printf("Tambien se le conoce como Levante.\n");
     }
-    else if (p_cardinal == OESTE)
+    else if (pCardinal == OESTE)
     {
         printf("Tambien se le conoce como Poniente.\n");
     }
